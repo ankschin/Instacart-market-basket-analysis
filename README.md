@@ -4,5 +4,5 @@ In this competition, Instacart is challenging the Kaggle community to use this a
 # Evaluation
 Evaluation of this challenge's submission is mean F1 score.
 
-#Result
+# Result
 I got f1 score of 0.35446 in public leaderboard using LightGBM model.
