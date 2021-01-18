@@ -1,0 +1,22 @@
+<html>
+<body>
+	<h3>Instacart shopping site</h3>
+
+
+
+<div>
+	<form action="/index", method="post">
+		<label for="user_id"> Login with a user id.</label>
+			<textarea name='user_id' rows="1" cols="5"></textarea>
+		<br>
+		<br>
+		<input type="submit" name="login" value="Login">
+	</form>
+</div>
+
+{% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+
+</html>
